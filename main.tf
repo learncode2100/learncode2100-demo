@@ -42,6 +42,6 @@ resource "azurerm_resource_group" "testrg" {
   name = "testrg003"
   location = "westeurope"
   tags = {
-    "env" = "prod"
+    "env" = "staging"
   }
 }
