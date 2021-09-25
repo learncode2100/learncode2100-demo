@@ -11,7 +11,7 @@ terraform {
   backend "remote" {
     organization = "learncode2100-demo"
     workspaces {
-    name = "Example-Workspace"
+    name = "learncode2100-demo"
     }
   }
 }
