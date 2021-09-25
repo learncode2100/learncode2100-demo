@@ -38,6 +38,7 @@ variable "ARM_TENANT_ID" {
   
 }
 
+/*
 resource "azurerm_resource_group" "testrg" {
   name = "testrg003"
   location = "westeurope"
@@ -45,3 +46,4 @@ resource "azurerm_resource_group" "testrg" {
     "env" = "staging"
   }
 }
+*/
